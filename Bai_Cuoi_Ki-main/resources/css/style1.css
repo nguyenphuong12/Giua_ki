@@ -1,0 +1,341 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #000;
+    margin: 0;
+}
+/* --------------------------- */
+/* ----------HEADER+--------------- */
+.app {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.header {
+    height: 132px;
+    padding-right: 61px;
+    padding-left: 64px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16)
+}
+.header-logo img{
+    width: 395.83px; 
+    height: 37.53px;
+    margin-top: 52.54px;
+    margin-right: 63.58px;
+    margin-bottom: 42.93px;
+}
+.header ul{
+    padding: 0;
+    margin: 59px 0 40px 413px;
+    border: 0;
+}
+.header-menu{
+    list-style: none;
+    display: flex;  
+    margin-top: 59px;
+}
+.header-bar{
+    display: none;
+}
+
+.header-item-blog{
+    height: 34px;
+    width: 66px;
+    margin-right: 31px;
+    text-align: center;
+}
+
+.header-item-about{
+    height: 34px;
+    width: 84px;
+    margin-right: 34px;
+    text-align: center;
+}
+.header-item-links{
+    height: 34px;
+    width: 71px;
+    margin-right: 36px;
+    text-align: center;
+}
+.header-item-projects{
+    height: 34px;
+    width: 121px;
+    text-align: center;
+}
+.header-item-blog hr{
+    width: 66px;
+    height: 0;
+    margin-top: 37px;
+    size: 2px;
+    border-color: #000;
+    background-color: #000;
+}
+.header-link {
+    font-family: 'New York Small', sans-serif;
+    Line-height: 34px;
+    Letter-spacing: 0.12em;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+}
+/* --------------------------- */
+/* ----------SECTION ABOUT-------------- */
+.section__about{
+    max-width: 1440px;
+    text-align: center;
+}
+.section__about-img{
+    width: 854px;
+    height: 533px;
+    margin-top: 77px;
+    margin-left: 293px;
+    margin-right: 293px;
+    margin-bottom: 44px;
+}
+.section__about-title{
+    Font-family: "New York Extra Large", sans-serif;
+    Font-size: 54px;
+    Line-height: 100%;
+    text-Align: Center;
+    font-weight: 700;
+    width: 858px;
+    height: 162px;
+    margin-left: 293px;
+    margin-bottom: 32px;
+}
+.section__about-text{
+    margin:0px 424px;
+    width: 592px;
+    height: 68px;
+    font-size: 20px;
+    text-align: center;
+    Font-family: "SF Mono",sans-serif;
+    Font-size: 20px;
+    Line-height: 170%;
+}
+.section__about-content hr{
+    width: 640px;
+    height: 0;
+    margin: 34px 400px 0px 400px;
+}
+/* --------------------------- */
+/* ----------SECTION ARTICLES-------------- */
+.section__articles{
+    width: 1440px;
+    height: 2169px;
+}
+.section__articles-title{
+    Font-family: "New York Extra Large", sans-serif;
+    Font-size: 44px;
+    Line-height: 54px;
+    text-Align: Center;
+    font-weight: 700;
+    Width:225px;
+    Height:53px;
+    margin: 64px 607px 39px 608px ;
+    white-space: nowrap;
+    /* --để chữ không bị rớt xún dòng--- */
+}
+.section__articles-list-1{
+    display: grid;
+    grid-template-columns: repeat(2,304px);
+    grid-template-rows:repeat(6,176px);
+    column-gap: 28px ;
+    row-gap: 162px;
+    margin: 0px 402px 0px 402px ;
+    /* display: none; */
+}
+
+.section__articles-list-1 a{
+    text-decoration: none;
+    color: black;
+}
+.section__articles-list-2 a{
+    text-decoration: none;
+    color: black;
+}
+.articles_img1 img{
+    width: 304px;
+    height: 176px;
+}
+.articles_img2 img{
+    width: 304px;
+    height: 176px;
+}
+.articles_img-span{
+    display: block;
+    text-align: center;
+    Font-family: "SF Pro Display",sans-serif;
+    Font-size: 22px;
+    Line-height: 26px;
+    font-weight: 500;
+    Width: 262px;
+    Height:78px;
+    margin: 15px auto;
+}
+.articles_img2{
+    display: none;
+}
+
+/* ------------------------------- */
+/* responsive */
+
+
+
+/* ------------------------ */
+/* --------------------------- */
+/* ----------FOOTER--------------- */
+.footer{
+    max-width: 1440px;
+    height: 464px;
+    color: white;
+    background-color: #000;
+}
+.footer__header{
+    max-width: 1440px;
+    height: 46px;
+}
+.footer__header-list{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+.footer__header-item{
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'SF Pro Text', sans-serif;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    
+}
+
+.footer__header-item1{
+    margin-top: 18px;
+    margin-left: -6px;
+    width: 319px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.footer__header-item2{
+    margin-top: 18px;
+    width: 168px;
+    height: 28px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer__header-item3{
+    margin-top: 18px;
+    margin-left: 19px;
+    width: 132px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.footer__header-item4 {
+    margin-top: 18px;
+    width: 237px;
+    height: 28px;
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 20px ;
+}
+.footer__header-item5{
+    margin-top: 18px;
+    margin-left: 13px;
+    width: 145px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.footer__header-item6{
+    margin-top: 18px;
+    margin-left: 13px;
+    width: 117px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer__header-item7{
+    margin-top: 18px;
+    margin-left: 13px;
+    width: 145px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.footer__header-item8{
+    margin-top: 18px;
+    margin-left: 17px;
+    width: 100px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer__body-img img{
+    margin-left: 571.55px;
+    margin-top: 105px;
+    width: 290.91px;
+    height: 27.3px;
+}
+.footer__body-text{
+    text-align: center;
+    width: 488px;
+    height: 71px;
+    margin-left: 473px;
+    margin-top: 21px;
+    font-family: 'New York Small',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+.body-text-2{
+    display: none;
+}
+.footer__body-list{
+    display: flex;
+    text-decoration-line: underline;
+    list-style: none;
+    margin-left: 616px;
+    margin-top: 32px;
+    font-family: 'SF Pro Text',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+}
+.footer__body-item-twitter{
+    width: 55px;
+    height: 27px;
+    margin-right: 27px;
+}
+.footer__body-item-linkedIn{
+    width: 66px;
+    height: 27px;
+    margin-right: 29px;
+}
+.footer__body-item-RSS{
+    width: 66px;
+    height: 27px;
+    margin-right: 29px;
+    width: 32px;
+    height: 27px;
+}
+.footer__desc{
+    width: 178px;
+    height: 34px;
+    margin-left: 630px;
+    margin-top: 62px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+}
